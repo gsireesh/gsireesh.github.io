@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://siree.sh/sitemap.xml
+Sitemap: https://gsireesh.github.io/sitemap.xml
