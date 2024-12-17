@@ -1,6 +1,34 @@
 ---
 ---
 
+@article{widder2024basicresearchlethaleffects,
+      title={Basic Research, Lethal Effects: Military AI Research Funding as Enlistment}, 
+      author={David Gray Widder and Sireesh Gururaja and Lucy Suchman},
+      year={2024},
+      eprint={2411.17840},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url="https://arxiv.org/abs/2411.17840",
+      abstract = "In the context of unprecedented U.S. Department of Defense (DoD) budgets, this paper examines the recent history of DoD funding for academic research in algorithmically based warfighting. We draw from a corpus of DoD grant solicitations from 2007 to 2023, focusing on those addressed to researchers in the field of artificial intelligence (AI). Considering the implications of DoD funding for academic research, the paper proceeds through three analytic sections. In the first, we offer a critical examination of the distinction between basic and applied research, showing how funding calls framed as basic research nonetheless enlist researchers in a war fighting agenda. In the second, we offer a diachronic analysis of the corpus, showing how a 'one small problem' caveat, in which affirmation of progress in military technologies is qualified by acknowledgement of outstanding problems, becomes justification for additional investments in research. We close with an analysis of DoD aspirations based on a subset of Defense Advanced Research Projects Agency (DARPA) grant solicitations for the use of AI in battlefield applications. Taken together, we argue that grant solicitations work as a vehicle for the mutual enlistment of DoD funding agencies and the academic AI research community in setting research agendas. The trope of basic research in this context offers shelter from significant moral questions that military applications of one's research would raise, by obscuring the connections that implicate researchers in U.S. militarism.", 
+      selected=True,
+      abbr="Preprint",
+      pdf="https://arxiv.org/abs/2411.17840"
+}
+
+@article{gururaja2024collagedecomposablerapidprototyping,
+      title={Collage: Decomposable Rapid Prototyping for Information Extraction on Scientific PDFs}, 
+      author={Sireesh Gururaja and Yueheng Zhang and Guannan Tang and Tianhao Zhang and Kevin Murphy and Yu-Tsen Yi and Junwon Seo and Anthony Rollett and Emma Strubell},
+      year={2024},
+      eprint={2410.23478},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url="https://arxiv.org/abs/2410.23478",
+      abstract  = "Recent years in NLP have seen the continued development of domain-specific information extraction tools for scientific documents, alongside the release of increasingly multimodal pretrained transformer models. While the opportunity for scientists outside of NLP to evaluate and apply such systems to their own domains has never been clearer, these models are difficult to compare: they accept different input formats, are often black-box and give little insight into processing failures, and rarely handle PDF documents, the most common format of scientific publication. In this work, we present Collage, a tool designed for rapid prototyping, visualization, and evaluation of different information extraction models on scientific PDFs. Collage allows the use and evaluation of any HuggingFace token classifier, several LLMs, and multiple other task-specific models out of the box, and provides extensible software interfaces to accelerate experimentation with new models. Further, we enable both developers and users of NLP-based tools to inspect, debug, and better understand modeling pipelines by providing granular views of intermediate states of processing. We demonstrate our system in the context of information extraction to assist with literature review in materials science.",
+      selected=True,
+      abbr="Preprint",
+      pdf="https://arxiv.org/abs/2410.23478v1"
+}
+
 @inproceedings{gururaja-etal-2023-build,
     title = "To Build Our Future, We Must Know Our Past: Contextualizing Paradigm Shifts in Natural Language Processing",
     author = "Gururaja, Sireesh  and
@@ -20,7 +48,9 @@
     doi = "10.18653/v1/2023.emnlp-main.822",
     pages = "13310--13325",
     abstract = "NLP is in a period of disruptive change that is impacting our methodologies, funding sources, and public perception. In this work, we seek to understand how to shape our future by better understanding our past. We study factors that shape NLP as a field, including culture, incentives, and infrastructure by conducting long-form interviews with 26 NLP researchers of varying seniority, research area, institution, and social identity. Our interviewees identify cyclical patterns in the field, as well as new shifts without historical parallel, including changes in benchmark culture and software infrastructure. We complement this discussion with quantitative analysis of citation, authorship, and language use in the ACL Anthology over time. We conclude by discussing shared visions, concerns, and hopes for the future of NLP. We hope that this study of our field{'}s past and present can prompt informed discussion of our community{'}s implicit norms and more deliberate action to consciously shape the future.",
-    selected=true
+    selected=true,
+    journal="EMNLP",
+    abbr="EMNLP '23"
 }
 
 @inproceedings{gururaja-etal-2023-linguistic,
@@ -41,7 +71,8 @@
     doi = "10.18653/v1/2023.acl-long.414",
     pages = "7502--7514",
     abstract = "Recent work has demonstrated the positive impact of incorporating linguistic representations as additional context and scaffolds on the in-domain performance of several NLP tasks. We extend this work by exploring the impact of linguistic representations on cross-domain performance in a few-shot transfer setting. An important question is whether linguistic representations enhance generalizability by providing features that function as cross-domain pivots. We focus on the task of relation extraction on three datasets of procedural text in two domains, cooking and materials science. Our approach augments a popular transformer-based architecture by alternately incorporating syntactic and semantic graphs constructed by freely available off-the-shelf tools. We examine their utility for enhancing generalization, and investigate whether earlier findings, e.g. that semantic representations can be more helpful than syntactic ones, extend to relation extraction in multiple domains. We find that while the inclusion of these graphs results in significantly higher performance in few-shot transfer, both types of graph exhibit roughly equivalent utility.",
-    selected=true
+    abbr="ACL '23",
+    selected=True
 }
 
 
@@ -51,5 +82,31 @@
   author={Wu, Tongshuang and Zhu, Haiyi and Albayrak, Maya and Axon, Alexis and Bertsch, Amanda and Deng, Wenxing and Ding, Ziqi and Guo, Bill and Gururaja, Sireesh and Kuo, Tzu-Sheng and others},
   journal={arXiv preprint arXiv:2307.10168},
   year={2023},
-  selected=True
+  abbr="Preprint",
+}
+
+@inproceedings{bansal-etal-2022-r3,
+    title = "R3 : Refined Retriever-Reader pipeline for Multidoc2dial",
+    author = "Bansal, Srijan  and
+      Tripathi, Suraj  and
+      Agarwal, Sumit  and
+      Gururaja, Sireesh  and
+      Veerubhotla, Aditya Srikanth  and
+      Dutt, Ritam  and
+      Mitamura, Teruko  and
+      Nyberg, Eric",
+    editor = "Feng, Song  and
+      Wan, Hui  and
+      Yuan, Caixia  and
+      Yu, Han",
+    booktitle = "Proceedings of the Second DialDoc Workshop on Document-grounded Dialogue and Conversational Question Answering",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.dialdoc-1.17",
+    doi = "10.18653/v1/2022.dialdoc-1.17",
+    pages = "148--154",
+    abstract = "In this paper, we present our submission to the DialDoc shared task based on the MultiDoc2Dial dataset. MultiDoc2Dial is a conversational question answering dataset that grounds dialogues in multiple documents. The task involves grounding a user{'}s query in a document followed by generating an appropriate response. We propose several improvements over the baseline{'}s retriever-reader architecture to aid in modeling goal-oriented dialogues grounded in multiple documents. Our proposed approach employs sparse representations for passage retrieval, a passage re-ranker, the fusion-in-decoder architecture for generation, and a curriculum learning training paradigm. Our approach shows a 12 point improvement in BLEU score compared to the baseline RAG model.",
+    abbr="DialDoc at ACL '22"
 }
