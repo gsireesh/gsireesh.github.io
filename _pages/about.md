@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info:
-news: false # includes a list of news items
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
@@ -18,7 +18,7 @@ I'm a PhD student at Carnegie Mellon University's [Language Technologies Institu
 [Emma Strubell](https://strubell.github.io). I previously completed a masters degree here under the
 supervision of [Carolyn Rose](https://www.cs.cmu.edu/~cprose/), and a BA in computer science at
 Columbia University. My work is supported by the Army Research Lab's
-[HTMDEC](https://arl.devcom.army.mil/htmdec/) US Citizen Fellowship and Mozilla.
+[HTMDEC](https://arl.devcom.army.mil/htmdec/) US Citizen Fellowship and the [Mozilla Foundation](https://foundation.mozilla.org/en/).
 
 My research focuses on NLP and AI tools that allows users in specialized domains to keep agency in
 their work. How can we empower people to customize and change their tools to reflect
