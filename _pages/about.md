@@ -23,7 +23,7 @@ Columbia University. My work is supported by the Army Research Lab's
 My research focuses on NLP and AI tools that allows users in specialized domains to keep agency in
 their work. How can we empower people to customize and change their tools to reflect
 and be useful to how they see their own jobs, rather than how their boss or a tech company with a
-billion other users does? More concretely, I focus on user-customizable, on-device models that 
+billion other users does? More concretely, I focus on user-customizable, on-device models that
 live in the browser, and how to effectively reason their limitations and update them. I'm also interested in the incentives that
 shape NLP research, whether funding, tooling, or culture.
 
