@@ -9,9 +9,23 @@
       archivePrefix={arXiv},
       url="https://arxiv.org/abs/2504.12495",
       abstract={Working with documents is a key part of almost any knowledge work, from contextualizing research in a literature review to reviewing legal precedent. Recently, as their capabilities have expanded, primarily text-based NLP systems have often been billed as able to assist or even automate this kind of work. But to what extent are these systems able to model these tasks as experts conceptualize and perform them now? In this study, we interview sixteen domain experts across two domains to understand their processes of document research, and compare it to the current state of NLP systems. We find that our participants processes are idiosyncratic, iterative, and rely extensively on the social context of a document in addition its content; existing approaches in NLP and adjacent fields that explicitly center the document as an object, rather than as merely a container for text, tend to better reflect our participants' priorities, though they are often less accessible outside their research communities. We call on the NLP community to more carefully consider the role of the document in building useful tools that are accessible, personalizable, iterative, and socially aware.},
-      abbr="Preprint",
+      abbr="ACL '25 Findings",
       selected=True,
       pdf="https://arxiv.org/abs/2504.12495"
+}
+
+@article{gururaja2024collagedecomposablerapidprototyping,
+      title={Collage: Decomposable Rapid Prototyping for Information Extraction on Scientific PDFs},
+      author={Sireesh Gururaja and Yueheng Zhang and Guannan Tang and Tianhao Zhang and Kevin Murphy and Yu-Tsen Yi and Junwon Seo and Anthony Rollett and Emma Strubell},
+      year={2025},
+      eprint={2410.23478},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url="https://arxiv.org/abs/2410.23478",
+      abstract  = "Recent years in NLP have seen the continued development of domain-specific information extraction tools for scientific documents, alongside the release of increasingly multimodal pretrained transformer models. While the opportunity for scientists outside of NLP to evaluate and apply such systems to their own domains has never been clearer, these models are difficult to compare: they accept different input formats, are often black-box and give little insight into processing failures, and rarely handle PDF documents, the most common format of scientific publication. In this work, we present Collage, a tool designed for rapid prototyping, visualization, and evaluation of different information extraction models on scientific PDFs. Collage allows the use and evaluation of any HuggingFace token classifier, several LLMs, and multiple other task-specific models out of the box, and provides extensible software interfaces to accelerate experimentation with new models. Further, we enable both developers and users of NLP-based tools to inspect, debug, and better understand modeling pipelines by providing granular views of intermediate states of processing. We demonstrate our system in the context of information extraction to assist with literature review in materials science.",
+      selected=True,
+      abbr="SDProc@ACL '25",
+      pdf="https://arxiv.org/abs/2410.23478v1"
 }
 
 @article{gururaja2025datadriven,
@@ -19,7 +33,7 @@
     author={Sireesh Gururaja and Jeremiah Milbauer and Hung-Yi Lin and Anthony Rollett and Emma Strubell},
     year={2025},
     abstract={In this work we present a challenge dataset for few- and zero-shot multimodal information extraction to support the data-driven design (DDD) of materials. The benchmark repurposes manually-verified tabular data from \citet{jensen_machine_2019}'s study of zeolite synthesis. The proposed dataset is intended to evaluate systems' capabilities in information extraction, disambiguation, and normalization from tables and related text (e.g. captions), in both multimodal and text-only settings. We argue that data-driven design presents a promising task --- data-rich, useful, and challenging --- against which to benchmark next-generation information extraction systems.},
-    abbr="Non-archival@NAACL AISD '25",
+    abbr="AISD@NAACL '25 (NA)",
     selected=True,
     pdf="gururaja_2025_datadrivendesign.pdf"
 }
@@ -36,20 +50,6 @@
       selected=True,
       abbr="Preprint",
       pdf="https://arxiv.org/abs/2411.17840"
-}
-
-@article{gururaja2024collagedecomposablerapidprototyping,
-      title={Collage: Decomposable Rapid Prototyping for Information Extraction on Scientific PDFs},
-      author={Sireesh Gururaja and Yueheng Zhang and Guannan Tang and Tianhao Zhang and Kevin Murphy and Yu-Tsen Yi and Junwon Seo and Anthony Rollett and Emma Strubell},
-      year={2024},
-      eprint={2410.23478},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url="https://arxiv.org/abs/2410.23478",
-      abstract  = "Recent years in NLP have seen the continued development of domain-specific information extraction tools for scientific documents, alongside the release of increasingly multimodal pretrained transformer models. While the opportunity for scientists outside of NLP to evaluate and apply such systems to their own domains has never been clearer, these models are difficult to compare: they accept different input formats, are often black-box and give little insight into processing failures, and rarely handle PDF documents, the most common format of scientific publication. In this work, we present Collage, a tool designed for rapid prototyping, visualization, and evaluation of different information extraction models on scientific PDFs. Collage allows the use and evaluation of any HuggingFace token classifier, several LLMs, and multiple other task-specific models out of the box, and provides extensible software interfaces to accelerate experimentation with new models. Further, we enable both developers and users of NLP-based tools to inspect, debug, and better understand modeling pipelines by providing granular views of intermediate states of processing. We demonstrate our system in the context of information extraction to assist with literature review in materials science.",
-      selected=True,
-      abbr="Preprint",
-      pdf="https://arxiv.org/abs/2410.23478v1"
 }
 
 @inproceedings{gururaja-etal-2023-build,
@@ -95,7 +95,7 @@
     pages = "7502--7514",
     abstract = "Recent work has demonstrated the positive impact of incorporating linguistic representations as additional context and scaffolds on the in-domain performance of several NLP tasks. We extend this work by exploring the impact of linguistic representations on cross-domain performance in a few-shot transfer setting. An important question is whether linguistic representations enhance generalizability by providing features that function as cross-domain pivots. We focus on the task of relation extraction on three datasets of procedural text in two domains, cooking and materials science. Our approach augments a popular transformer-based architecture by alternately incorporating syntactic and semantic graphs constructed by freely available off-the-shelf tools. We examine their utility for enhancing generalization, and investigate whether earlier findings, e.g. that semantic representations can be more helpful than syntactic ones, extend to relation extraction in multiple domains. We find that while the inclusion of these graphs results in significantly higher performance in few-shot transfer, both types of graph exhibit roughly equivalent utility.",
     abbr="ACL '23",
-    selected=True
+    selected=False
 }
 
 
