@@ -31,3 +31,5 @@ Before coming to CMU, I spent six years in industry. I started at IBM Watson in 
 did bespoke prototypes; I then moved to [Kensho Technologies](https://kensho.com) in 2018, where I spent
 three and a half years, first working as an ML engineer focused on NLP, then as the first lead of
 the ML Ops and Internal Tools team.
+
+You can find my CV [here](/assets/pdf/sireesh_cv.pdf).
