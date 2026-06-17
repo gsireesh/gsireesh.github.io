@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm proposing my thesis this week! If you're interested, you can take a look at the proposal [here](/assets/pdf/sireesh_proposal.pdf).
+I'm proposing my thesis next week, on 12/19! If you're interested, you can take a look at the proposal [here](/assets/pdf/sireesh_proposal.pdf).
