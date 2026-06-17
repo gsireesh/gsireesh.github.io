@@ -194,7 +194,7 @@ collections:
     output: true
     permalink: /:collection/:title/
   projects:
-    output: false
+    output: true
     permalink: /:collection/:title/
 
 announcements:
@@ -249,12 +249,11 @@ exclude:
   - announcements
   - _pages/cv.md
   - _pages/dropdown.md
-  - _pages/projects.md
   - _pages/teaching.md
   - _pages/repositories.md
   - _pages/profiles.md
   - _posts/
-  - _projects/
+
 keep_files:
   - CNAME
   - .nojekyll
@@ -416,7 +415,6 @@ imagemagick:
     - ".jpeg"
     - ".png"
     - ".tiff"
-    - ".gif"
   output_formats:
     webp: "-quality 85"
 
