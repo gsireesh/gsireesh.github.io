@@ -7,8 +7,6 @@ importance: 1
 category: work
 ---
 
-# TractorBeam - Customizable Reading Support for PDFs with Collaborative Machine Annotation
-
 <video width="100%" autoplay loop muted playsinline title="TractorBeam -- adding a highlight and running machine annotation">
   <source src="{{ '/assets/img/tb-gif.mp4' | relative_url }}" type="video/mp4">
 </video>
@@ -43,3 +41,5 @@ collaborative annotator on the same documents you read, in a very common, existi
 The AI highlights are clearly marked as separate from yours, and you can choose to use them to
 either better reflect your mental model in instances, or to refine the model's behavior and
 re-run it.
+
+If you'd like to try TractorBeam, [shoot me an email!](mailto:sgururaj@cs.cmu.edu)
