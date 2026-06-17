@@ -43,3 +43,5 @@ either better reflect your mental model in instances, or to refine the model's b
 re-run it.
 
 If you'd like to try TractorBeam, [shoot me an email!](mailto:sgururaj@cs.cmu.edu)
+
+TractorBeam's [privacy policy is available here]({{ '/tractorbeam/privacy/' | relative_url }}).
