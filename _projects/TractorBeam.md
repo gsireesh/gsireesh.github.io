@@ -43,6 +43,8 @@ The AI highlights are clearly marked as separate from yours, and you can choose 
 either better reflect your mental model in instances, or to refine the model's behavior and
 re-run it.
 
+## Try it out!
+
 If you'd like to try TractorBeam, a (poorly documented) beta version is available in the Chrome Web Store [here](https://chromewebstore.google.com/detail/tractor-beam/kgmfffbnpceacpnakldldoijephhcngn?authuser=0&hl=en). It's also open-source, and available on [GitHub](https://github.com/gsireesh/tractor-beam). 
 
 If you have any questions, please [shoot me an email!](mailto:sgururaj@cs.cmu.edu) I'm happy to help you get started with TractorBeam.
