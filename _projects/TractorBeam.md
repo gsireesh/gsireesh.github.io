@@ -34,7 +34,7 @@ evaluating whether an AI is doing a good job is a lot easier when you see what i
 I wrote about some of the benefits of collaborative annotation for machine learning in a paper
 at the [Science and Technology of Augmented Reading Workshop](https://chi-star-workshop.github.io/)
 at CHI 2026, and you can find my paper [here](<https://chi-star-workshop.github.io/src/assets/pdf/papers/CHI_STAR_26__Collaborative_Annotation_as_an_Interface_Metaphor_for_Personalizable_AI_Reading_Support%20(3)%20-%20Sireesh%20Gururaja.pdf>). 
-TractorBeam is also forthcoming as a poster at [UIST 2026](https://uist.acm.org/2026/) ([paper](/assets/pdf/tractorbeam_uist_26_paper.pdf)|[poster](/assets/pdf/tb_uist_poster.pdf)).
+TractorBeam is also forthcoming as a poster at [UIST 2026](https://uist.acm.org/2026/) ([paper](/assets/pdf/tractorbeam_uist_26_paper.pdf)|[poster](/assets/pdf/tb_uist_poster.pdf)), and a [full version of the study](/assets/pdf/tractorbeam_paper_27.pdf) is now under review.
 
 While TractorBeam doesn't support collaboration with other users yet, it frames AI as a
 collaborative annotator on the same documents you read, in a very common, existing PDF reader
