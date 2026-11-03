@@ -33,7 +33,7 @@ less of a concern if you're seeing an AI's results in light of the original docu
 evaluating whether an AI is doing a good job is a lot easier when you see what it's drawing from.
 I wrote about some of the benefits of collaborative annotation for machine learning in a paper
 at the [Science and Technology of Augmented Reading Workshop](https://chi-star-workshop.github.io/)
-at CHI 2026, and you can find my paper [here](<https://chi-star-workshop.github.io/src/assets/pdf/papers/CHI_STAR_26__Collaborative_Annotation_as_an_Interface_Metaphor_for_Personalizable_AI_Reading_Support%20(3)%20-%20Sireesh%20Gururaja.pdf>). 
+at CHI 2026, and you can find my paper [here](<https://chi-star-workshop.github.io/src/assets/pdf/papers/CHI_STAR_26__Collaborative_Annotation_as_an_Interface_Metaphor_for_Personalizable_AI_Reading_Support%20(3)%20-%20Sireesh%20Gururaja.pdf>).
 TractorBeam is also forthcoming as a poster at [UIST 2026](https://uist.acm.org/2026/) ([paper](/assets/pdf/tractorbeam_uist_26_paper.pdf)|[poster](/assets/pdf/tb_uist_poster.pdf)), and a [full version of the study](/assets/pdf/tractorbeam_paper_27.pdf) is now under review.
 
 While TractorBeam doesn't support collaboration with other users yet, it frames AI as a
@@ -45,7 +45,7 @@ re-run it.
 
 ## Try it out!
 
-If you'd like to try TractorBeam, a (poorly documented) beta version is available in the Chrome Web Store [here](https://chromewebstore.google.com/detail/tractor-beam/kgmfffbnpceacpnakldldoijephhcngn?authuser=0&hl=en). It's also open-source, and available on [GitHub](https://github.com/gsireesh/tractor-beam). 
+If you'd like to try TractorBeam, a (poorly documented) beta version is available in the Chrome Web Store [here](https://chromewebstore.google.com/detail/tractor-beam/kgmfffbnpceacpnakldldoijephhcngn?authuser=0&hl=en). It's also open-source, and available on [GitHub](https://github.com/gsireesh/tractor-beam).
 
 If you have any questions, please [shoot me an email!](mailto:sgururaj@cs.cmu.edu) I'm happy to help you get started with TractorBeam.
 
