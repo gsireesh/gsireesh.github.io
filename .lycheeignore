@@ -1,0 +1,5 @@
+# sites that block automated link checkers
+^https?://(www\.)?reddit\.com
+^https://foundation\.mozilla\.org
+# Collage demo server, only reachable intermittently/from CMU network
+^http://windhoek\.sp\.cs\.cmu\.edu
